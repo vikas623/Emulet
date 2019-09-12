@@ -1,0 +1,7 @@
+Emulet.ini
+Emulet.log
+venv
+*.egg-info
+dist/
+__pycache__
+*.pyc
