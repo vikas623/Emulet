@@ -1,7 +1,9 @@
 Emulet
 -------
 -------
-
+.. image:: https://readthedocs.org/projects/emulet/badge/?version=latest
+  :target: https://emulet.readthedocs.io/en/latest/?badge=latest
+  :alt: Documentation Status
 Emulet is a simple TCP honeypot written in Python 3.
 
 Source Code
