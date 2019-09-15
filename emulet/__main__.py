@@ -28,7 +28,7 @@ config = configparser.ConfigParser()
 config.read(config_filepath)
 ports = config.get('default', 'ports', raw=True, fallback="8080,8888,9999")
 host = config.get('default', 'host', raw=True, fallback="0,0.0.0")
-log_filepath = config.get('default', 'logfile', raw=True, fallback="/home/vikas/Desktop/honeypot.log")
+log_filepath = config.get('default', 'logfile', raw=True, fallback="/var/log/emulet.log")
 
 # Double check
 ports_list = []
